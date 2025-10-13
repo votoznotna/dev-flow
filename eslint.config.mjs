@@ -10,15 +10,7 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
-  ...compat.extends(
-    'next/core-web-vitals',
-    'next/typescript',
-    'standard',
-    'plugin:n/recommended',
-    'plugin:promise/recommended',
-    // 'plugin:tailwindcss/recommended',
-    'prettier'
-  ),
+  ...compat.extends('next/core-web-vitals', 'next/typescript', 'prettier'),
   {
     ignores: [
       'node_modules/**',
