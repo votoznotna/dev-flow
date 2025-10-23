@@ -2,5 +2,20 @@
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
-  "css.customData": [".vscode/css_custom_data.json"]
+  "css.customData": [".vscode/css_custom_data.json"],
+  "cSpell.words": [
+    "amazonwebservices",
+    "angularjs",
+    "bunjs",
+    "cplusplus",
+    "darknone",
+    "denojs",
+    "googlecloud",
+    "inkscape",
+    "laravel",
+    "materialui",
+    "reactjs",
+    "threejs",
+    "unrealengine"
+  ]
 }
