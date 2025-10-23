@@ -6,6 +6,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/sonner';
 import { auth } from '@/auth';
 import { SessionProvider } from 'next-auth/react';
+import 'devicon/devicon.min.css';
 
 const inter = localFont({
   src: './fonts/InterVF.ttf',
@@ -33,13 +34,6 @@ const RootLayout = async ({ children }: { children: ReactNode }) => {
 
   return (
     <html lang='en' suppressHydrationWarning>
-      <head>
-        <link
-          rel='stylesheet'
-          type='text/css'
-          href='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css'
-        />
-      </head>
       <SessionProvider session={session}>
         <body
           className={`${inter.className} ${spaceGrotesk.variable} antialiased`}
