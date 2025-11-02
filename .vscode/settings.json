@@ -8,14 +8,17 @@
     "angularjs",
     "bunjs",
     "cplusplus",
+    "darkgradient",
     "darknone",
     "denojs",
+    "downvotes",
     "googlecloud",
     "inkscape",
     "laravel",
     "materialui",
     "reactjs",
     "threejs",
-    "unrealengine"
+    "unrealengine",
+    "upvotes"
   ]
 }
