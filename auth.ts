@@ -17,6 +17,9 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
     signIn: '/sign-in',
   },
   callbacks: {
+    async session({ session, token }) {
+      return session;
+    },
     async redirect({ url, baseUrl }) {
       // Allows relative callback URLs
       if (url.startsWith('/')) return `${baseUrl}${url}`;
